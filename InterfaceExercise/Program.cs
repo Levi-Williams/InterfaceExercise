@@ -39,6 +39,32 @@ namespace InterfaceExercise
 
             //Now, create objects of your 3 classes and give their members values;
             //Creatively display and organize their values
+
+            Car malibu = new Car();
+
+            malibu.canDrive = true;
+            malibu.size = "mid size";
+            malibu.engineType = "V6";
+            malibu.numberOfWheels = 4;
+            malibu.slogan = "The family car";
+            malibu.hasTrunk = true;
+
+            Truck sierra = new Truck();
+
+            sierra.engineType = "5.3L V8";
+            sierra.numberOfWheels = 4;
+            sierra.canDrive = true;
+            sierra.truckBedSize = "5 feet";
+            sierra.hasFourWheelDrive = true;
+
+            SUV explorer= new SUV();
+
+            explorer.canOffRoad = true;
+            explorer.canDrive = true;
+            explorer.passengerCapacity = 5;
+            explorer.slogan = "Built Ford Tough";
+            explorer.engineType = "V6";
+
         }
     }
 }
