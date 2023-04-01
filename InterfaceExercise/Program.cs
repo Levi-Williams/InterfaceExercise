@@ -65,6 +65,49 @@ namespace InterfaceExercise
             explorer.slogan = "Built Ford Tough";
             explorer.engineType = "V6";
 
+            Console.WriteLine("Hi! I have three vehicles and I want you to guess what vehicle matches the description!");
+
+            
+            //VEHICLE 1
+            Console.WriteLine("Let's start with vehicle number 1!");
+
+            Console.WriteLine($"It's size is considered {malibu.size}");
+
+            Console.WriteLine($"It has this engine type {malibu.engineType}");
+
+            Console.WriteLine($"It's slogan is {malibu.slogan}");
+
+            Console.WriteLine($"Does it have a trunk? - {malibu.hasTrunk}");
+
+
+            //VEHICLE 2
+            Console.WriteLine("Moving on to vehicle number 2!");
+
+            Console.WriteLine($"It has this engine type {sierra.engineType}");
+
+            Console.WriteLine($"It's truck bed size is - {sierra.truckBedSize}");
+
+            Console.WriteLine($"Does it have four wheel drive? {sierra.hasFourWheelDrive}");
+
+
+            //Vehicle 3
+            Console.WriteLine("And here is the info on the 3rd and final vehicle");
+
+            Console.WriteLine($"It has this engine type {explorer.engineType}");
+
+            Console.WriteLine($"Can it off road? {explorer.canOffRoad}");
+
+            Console.WriteLine($"It can have this many passengers - {explorer.passengerCapacity}");
+
+            Console.WriteLine($"It's slogan is {explorer.slogan}");
+
+            
+            
+            Console.WriteLine("And that is it. Here are the options so think about what vehicle you match to each option. There is a malibu, a sierra, and an explorer!");
+
+
+
+
         }
     }
 }
